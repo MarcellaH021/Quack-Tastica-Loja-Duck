@@ -1,0 +1,184 @@
+body {
+    font-family: "regular" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: var(--header-color);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    animation: spin 4s linear infinite;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    animation: fadeIn 2s ease-in-out;
+    font-family: "logo";
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--menu-color);
+    font-weight: bold;
+    font-family: "logo";
+  }
+
+  nav ul li a:hover {
+    color: #cc5200;
+  }
+  
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/quack.png) no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    animation: slideUp 1.5s ease-in-out;
+  }
+
+  .hero-content h2 {
+    font-family: "logo";
+  }
+  
+  .btn {
+    background: var(--buton-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #cc5200;
+  }
+  
+  .products {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: var(--product-color);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .product-card:hover {
+    animation: bounce 0.5s;
+  }
+  
+  .product-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .about, .local {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .local {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .local-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .map-container {
+    flex: 1;
+    min-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-links img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+  }

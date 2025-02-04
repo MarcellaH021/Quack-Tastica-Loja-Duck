@@ -1,0 +1,39 @@
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo-container {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+
+    .local-container {
+      flex-direction: column;
+    }
+  
+    .map-container {
+      height: 250px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .logo {
+      height: 40px;
+    }
+
+    .social-links img {
+      width: 20px;
+      height: 20px;
+    }
+  }
