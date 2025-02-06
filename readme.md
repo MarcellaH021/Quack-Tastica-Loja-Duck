@@ -9,6 +9,8 @@ Garantir responsabilidade para que o site funcione bem tanto no computador, tabl
 
 Implantar 3 animações, usando Keyframes, sendo elas “fadeIn”, “slideUp” e “bounce”.
 
+Sons aplicados através de JavaScript para deixar o site mais legal, dependendo da compatibilidade do navegador. Testado no Google Chrome.
+
 Originalidade de usar cores, logotipo e uma identidade visual marcante.
 
 Seções do Site
@@ -16,7 +18,7 @@ Cabeçalho: Contém o logotipo que fica girando em 360 graus infinitamente, alé
 
 Seção Hero (Destaque): Tem uma imagem chamativa de fundo e um botão "Compre Agora" que leva para a seção de produtos.
 
-Seção de Produtos: Exibe os patinhos de borracha em cards contendo imagem, nome, preço e um botão "Add ao Carrinho". Cada card tem um efeito de hover, que faz ele saltar levemente ao passar o mouse.
+Seção de Produtos: Exibe os patinhos de borracha em cards contendo imagem, nome, preço e um botão "Add ao Carrinho". Cada card tem um efeito de hover, que faz ele saltar levemente ao passar o mouse. Os 9 primeiros patinhos emitem o som "Quack" quando o mouse passar em cima, enquanto o decímo patinho emite um som especial.
 
 Seção Sobre: Conta um pouco sobre a marca e o propósito da loja, ajudando a criar uma conexão com os clientes.
 
@@ -41,7 +43,8 @@ c. Animação bounce
 Objetivo: Criar um efeito de pulo divertido e interativo.
 Uso: Aplicada aos cards de produto quando o usuário passa o mouse, tornando a experiência mais envolvente.
 
-Interatividade: Efeitos de hover em botões, animações na logo do site e um mapa interativo deixam a navegação mais dinâmica.
+Interatividade: Efeitos de hover em botões, som interativo nos cards, animações na logo do site e um mapa interativo deixam a navegação mais dinâmica.
+
 Visual Atrativo: Usei um esquema de cores alegres e que combinam (amarelo, laranja e branco), imagens de alta qualidade geradas originalmente com as minhas ideias com o auxílio da IA Gemini do Google.
 
 Conclusão

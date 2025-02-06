@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quack-Tástica Loja Duck</title>
+  <link href="js/sounds.js" />
   <link rel="stylesheet" href="css/pallete.css" />
   <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/kayframes.css" />
@@ -91,7 +92,7 @@
         <p>R$19,99</p>
         <button class="btn">Add ao Carrinho</button>
       </div>
-      <div class="product-card">
+      <div class="product-cardS">
         <img src="img/patoS.png" alt="Professor" class="product-img">
         <h3>Melhor Professor Quack-Tástico</h3>
         <p>R$24,99</p>
@@ -138,5 +139,33 @@
       </div>
     </div>
   </footer>
+  <audio id="hover-soundQ">
+    <source src="sounds/quack.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="hover-soundS">
+    <source src="sounds/Sidney.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const productCards = document.querySelectorAll('.product-card');
+    const productCardsS = document.querySelectorAll('.product-cardS');
+    const hoverSoundQ = document.getElementById('hover-soundQ');
+    const hoverSoundS = document.getElementById('hover-soundS');
+
+    productCards.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        hoverSoundQ.volume = 1;
+        hoverSoundQ.play();
+        console.log("audio1");        
+      });
+    });
+    productCardsS.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        hoverSoundS.volume = 0.2;
+        hoverSoundS.play();
+        console.log("audio2");      
+      });
+    });
+  </script>
 </body>
 </html>
