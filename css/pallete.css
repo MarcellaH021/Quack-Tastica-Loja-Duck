@@ -1,7 +1,8 @@
 :root {
     --header-color: #ffcc00;
-    --menu-color: #333;
+    --menu-color: #484747;
     --buton-color: #ff6600;
+    --buton-color-hover: #cc5200;
     --product-color: #f9f9f9;
-    --footer-color: #333;
+    --footer-color: #5f5d5b;
   }

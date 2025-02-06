@@ -51,7 +51,7 @@ body {
   }
 
   nav ul li a:hover {
-    color: #cc5200;
+    color: var(--buton-color-hover);
   }
   
   .hero {
@@ -82,7 +82,7 @@ body {
   }
   
   .btn:hover {
-    background: #cc5200;
+    background: var(--buton-color-hover);
   }
   
   .products {
@@ -98,7 +98,7 @@ body {
   
   .product-card {
     background: var(--product-color);
-    border: 1px solid #ddd;
+    border: 1px solid #bab9b9;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -148,7 +148,7 @@ body {
   }
   
   footer {
-    background: #333;
+    background: var( --footer-color);
     color: white;
     padding: 20px;
     text-align: center;
